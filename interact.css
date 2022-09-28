@@ -1,0 +1,158 @@
+/* Jaskirat */
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #7ad3f4;
+    font-family: poppins;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    overflow-x: hidden;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #333;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 70px;
+    background-color: #333;
+    color: #fff;
+    padding: 0 20px;
+}
+
+
+
+
+.heading{
+
+    margin: 30px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    transform: translate(30%,10%);
+    line-height: 40px;
+}
+
+.heading h1{
+    font-size: 36px;
+    font-weight: 300;
+    color: red;
+    margin: 0;
+    padding: 0;
+}
+
+.heading h4{
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px 0 20px 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+form select{
+    width: 52%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+#account option{
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.form-group{
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 0 25px 0;
+}
+
+.required{
+    color: red;
+}
+
+.form-group label{
+    display: block;
+    width: 150px;
+    margin: 0 20px 0 0;
+    padding: 0;
+    line-height: 30px;
+    text-align: right;
+}
+
+.form-group input{
+    display: block;
+    width: 50%;
+    margin: 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.form-group button {
+    width: 30%;
+    margin: 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 13px;
+    background-color: #333;
+    color: #fff;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+footer{
+    height: 50px;
+    background-color: #333;
+    color: #fff;
+    padding: 0 20px;
+}
