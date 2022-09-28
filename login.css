@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: url(bg.jfif);
+    background: url(assets/bg.jfif);
     background-size: cover;
     background-position: center;
 }
@@ -11,9 +11,9 @@ body{
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    position: absolute;
+    position: center;
     top: -50px;
-    left:calc(50% -50px);
+    left:calc(40% -40px);
     
 }
 
@@ -25,28 +25,34 @@ body{
     top:50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background:rgb(55, 29, 220);
+    background:rgb(31, 101, 193);
     text-align: center;
 }
 
 .box h1{
-color: black;
+color: lightcyan;
 text-transform: uppercase;
 font-weight: 700;
+
+}
+
+.box p{
+
+    color: aliceblue;
 
 }
 
 .box input[type="text"], .box input[type="password"]{
 
 border: 0;
-background:none;
+background:lightblue;
 display: block;
 margin: 20px auto;
 text-align: center;
 border:3px rgb(44, 190, 56);
 padding: 14px 10px;
 width: 220px;
-outline:none;
+outline:white;
 color: black;
 border-radius: 24px;
 transition: 0.25px;
@@ -61,19 +67,20 @@ border-color: yellow;
 
 }
 
+
 .box input[type="submit"]
 
 {
     border: 0;
-    background:none;
+    background:rgb(106, 207, 106);
     display: block;
     margin: 20px auto;
     text-align: center;
-    border:3px yellow;
+    border:3px beige;
     padding: 14px 10px;
     width: 220px;
     outline:none;
-    color:rgb(154, 103, 154) ;
+    color:white ;
     border-radius: 24px;
     transition: 0.25px; 
     cursor: pointer;
@@ -81,5 +88,5 @@ border-color: yellow;
 
 
 .box input[type="submit"]:hover{
-    background: purple;
+    background: lightblue;
 }
