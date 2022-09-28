@@ -26,9 +26,9 @@
                 <label for="account">Select Account</label>
                 <select name="account" id="account" onchange="">
                     <option value="1">
-                        <div class="chequing">
+                        <div class="chequing" >
                             <h3>Chequing</h3>
-                            <p id="balance1">Balance: $2000</p>
+                            <p id="balance1" >Balance: $2000</p>
                         </div>
                     </option>
                     <option value="2">
@@ -40,11 +40,11 @@
                 </select>
                 </div>
                 <div class="form-group">
-                    <label for="amount">Amount</label>
+                    <label for="amount">Amount<i class="required" >*</i></label>
                     <input type="number" name="amount" id="amount" placeholder="Enter amount" required>
                 </div>
                 <div class="form-group">
-                    <label for="email">Email</label>
+                    <label for="email">Email<i class="required">*</i></label>
                     <input type="email" name="email" id="email" placeholder="Enter email" required>
                 </div>
                 <div class="form-group">
@@ -60,7 +60,7 @@
                     <input type="text" name="securityAnswer" id="securityAnswer" placeholder="Enter security answer">
                 </div>
                 <div class="form-group">
-                    <button type="submit" onclick="sendMoney()">Submit</button>
+                    <button type="button" onclick="sendMoney()">Submit</button>
                 </div>
 
               
