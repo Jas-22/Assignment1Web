@@ -5,7 +5,7 @@ div.savings {
     margin-bottom: 10px;
     font-size: 20px;
     color: black;
-    background-color: rgb(168, 224, 71);
+    background-color: white
   }
   div.chequings {
     border: solid 5px;
@@ -14,7 +14,7 @@ div.savings {
     margin-bottom: 10px;
     font-size: 20px;
     color: black;
-    background-color: rgb(168, 224, 71);
+    background-color: white
   }
   div.credit {
     border: solid 5px;
@@ -23,7 +23,7 @@ div.savings {
     margin-bottom: 10px;
     font-size: 20px;
     color: black;
-    background-color: rgb(168, 224, 71);
+    background-color: white
   }
   .myform{
     width: 680px;
@@ -42,7 +42,7 @@ div.savings {
     justify-content: center
   }
   body{
-    background-color: rgb(43, 105, 89);
+    background-image: url(assets/bg3.jpg);
   }
   .container {
     display: flex;
