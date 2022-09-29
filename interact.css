@@ -8,10 +8,13 @@ body{
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #7ad3f4;
-    font-family: poppins;
+    background-color: #0781b2;
+    font-family: 'poppins';
     font-size: 16px;
     color: rgb(0, 0, 0);
+    background-image: url('assets/bg3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     overflow-x: hidden;
 }
 
@@ -40,12 +43,49 @@ h2{
 }
 
 header{
-    height: 70px;
-    background-color: #333;
-    color: #fff;
-    padding: 0 20px;
+    margin-top: 10px;
+
 }
 
+nav {
+    letter-spacing: 0.1em;
+    margin: auto;
+    padding: 8px;
+    /* font-weight: bold; */
+    background-color: #fff;
+   width: 1000px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0781b2;
+}
+
+li {
+    float: left;
+    min-width: 15%;
+    margin-left: 80px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #205796;
+}
+
+nav a:hover {
+    background-color: #eaeaea;
+    color: #869dc7;
+}
 
 
 
@@ -57,13 +97,13 @@ header{
     flex-direction: column;
     justify-content: space-between;
     align-items: left;
-    transform: translate(30%,10%);
+    transform: translate(20%,10%);
     line-height: 40px;
 }
 
 .heading h1{
     font-size: 36px;
-    font-weight: 300;
+    font-weight: 420;
     color: red;
     margin: 0;
     padding: 0;
@@ -71,7 +111,7 @@ header{
 
 .heading h4{
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
     margin: 0;
     padding: 0;
 }
@@ -91,16 +131,18 @@ form{
     width: 80%;
     margin: 0 auto;
     padding: 30px 0 20px 20px;
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background-color: #0781b2;
+    border: 3px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
     border-radius: 10px;
 }
 
 form select{
     width: 52%;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 3px solid #ddd;
     border-radius: 3px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
 }
 #account option{
     height: 50px;
@@ -122,6 +164,7 @@ form select{
 
 .form-group label{
     display: block;
+    color: #fff;
     width: 150px;
     margin: 0 20px 0 0;
     padding: 0;
@@ -134,8 +177,9 @@ form select{
     width: 50%;
     margin: 0;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 3px solid #ddd;
     border-radius: 3px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
 }
 
 .form-group button {
@@ -144,10 +188,12 @@ form select{
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 13px;
-    background-color: #333;
+    background-color: #0793ca;
     color: #fff;
     font-weight: 300;
     cursor: pointer;
+    border: 3px solid #ddd;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
 }
 
 footer{
