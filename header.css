@@ -17,6 +17,7 @@ nav ul {
 
 li {
     float: left;
+    min-width: 25%;
     margin-left: 80px;
 }
 
