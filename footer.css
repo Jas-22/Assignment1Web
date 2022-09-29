@@ -1,6 +1,15 @@
 footer {
-    text-align: center;
-    padding: 2px;
-    background-color: DarkSalmon;
-    color: white;
-  }
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom : 0;
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 2px;
+  border: 2px solid #c5c5c5;
+  background-color: #0781b2;
+  color: white;
+}
