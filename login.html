@@ -10,14 +10,16 @@
 <body>
     
 
-<form class="box" action="return false" method="POST">
+<form class="box" action="account.html" onsubmit="return validate()">
 <img src="assets/avatar.png" class="avatar">
 <h1>HELLO! Login To Continue</h1>
 <p>UserName</p>
 <input type="text" name="" placeholder="Enter UserName" id="username">
 <p>Password</p>
 <input type="password" name="" placeholder="Enter Password" id="password">
-<input type="submit" name="" value="Login" onclick="validate()">
+<input type="submit" name="" value="Login">
+
+<p class="error" id="error"></p>
 
 </form>
 

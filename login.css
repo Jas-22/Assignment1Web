@@ -90,3 +90,10 @@ border-color: yellow;
 .box input[type="submit"]:hover{
     background: lightblue;
 }
+
+
+#error{
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+}
