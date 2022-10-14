@@ -39,7 +39,7 @@ include('includes/db_connection.php');
   <div class="container">
     <div class="image">
       <br/>
-      <img src="assets/pic1.jpg" alt="">
+      <img src="assets/pic1.jpg" alt="pic">
     </div>
     <div class="text">
       <h2>Customer Details</h2>
