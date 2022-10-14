@@ -20,13 +20,15 @@ body{
 .box{
 
     width: 300px;
-    padding: 30px;
+    
+    padding: 20px;
     position: absolute;
     top:50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background:rgb(31, 101, 193);
     text-align: center;
+    
 }
 
 .box h1{
@@ -47,10 +49,10 @@ font-weight: 700;
 border: 0;
 background:lightblue;
 display: block;
-margin: 20px auto;
+margin: 10px auto;
 text-align: center;
 border:3px rgb(44, 190, 56);
-padding: 14px 10px;
+padding: 5px 10px;
 width: 220px;
 outline:white;
 color: black;
@@ -97,9 +99,3 @@ border-color: yellow;
     font-size: 15px;
     font-weight: bold;
 }
-
-.a:link {
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
-  }

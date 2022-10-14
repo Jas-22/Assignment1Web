@@ -12,21 +12,32 @@
 
 <form class="box" action="account.html" onsubmit="return validate()">
 <img src="assets/avatar.png" class="avatar">
-<h1>HELLO! Login To Continue</h1>
-<p>UserName</p>
+<h1>HELLO! 
+<?php
+
+$dat = new DateTime('now', new DateTimeZone('Canada/Eastern'));
+$date=$dat->format('H');
+if($date < 12) 
+  echo "Good morning login to continue"; 
+else if($date < 17) 
+  echo "Good afternoon login to continue";
+else if($date<20)
+  echo "Good evening login to continue"; 
+else 
+  echo "Good evening login to continue"; 
+
+?>
+</h1>
+<p>username</p>
 <input type="text" name="" placeholder="Enter UserName" id="username">
 <p>Password</p>
 <input type="password" name="" placeholder="Enter Password" id="password">
 <input type="submit" name="" value="Login">
 
+<a href="signup.php" >New user? Click to register</a>
 <p class="error" id="error"></p>
 
 </form>
-
-
-
-
-
 
 
     <script src="./login.js"></script>
