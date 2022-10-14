@@ -60,12 +60,12 @@ include('includes/db_connection.php');
            
                 <tr>
                    
-                    <th>Name:</th>
+                    <th>Name</th>
                     <td><?php echo $Name ?></td>
                 </tr>
                 <tr>
 
-                    <th>Phone:</th>
+                    <th>Phone</th>
                     <td><?php echo $Phone_number ?></td>
                 </tr> 
                 <tr>
@@ -73,7 +73,7 @@ include('includes/db_connection.php');
                     <td><?php echo $Address ?></td>
                </tr>
                <tr>
-               <th>Email:</th>
+               <th>Email</th>
                <td><?php echo $Email ?></td>
                </tr>
 
