@@ -10,7 +10,7 @@
 <body>
     
 
-<form class="box" action="account.html" onsubmit="return validate()">
+<form class="box" action="login_authenticate.php" method= "POST" onsubmit="return validate()">
 <img src="assets/avatar.png" class="avatar">
 <h1>HELLO! 
 <?php
@@ -28,10 +28,10 @@ else
 
 ?>
 </h1>
-<p>username</p>
-<input type="text" name="" placeholder="Enter UserName" id="username">
+<p>Email</p>
+<input type="text" name="username" required placeholder="Enter Email" id="username">
 <p>Password</p>
-<input type="password" name="" placeholder="Enter Password" id="password">
+<input type="password" name="password" required placeholder="Enter Password" id="password">
 <input type="submit" name="" value="Login">
 
 <a href="signup.php" >New user? Click to register</a>
@@ -40,7 +40,7 @@ else
 </form>
 
 
-    <script src="./login.js"></script>
+    <!-- <script src="./login.js"></script> -->
 
 
 

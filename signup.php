@@ -1,3 +1,11 @@
+<?php
+
+session_start();
+
+include('includes/db_connection.php');
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +18,7 @@
 <body>
     
 
-<form class="box" action="login.html" onsubmit="return validate()">
+<form class="box" action="connect.php" onsubmit="return validate()" method = "POST">
 <img src="assets/avatar.png" class="avatar">
 <h1>HELLO! 
 
@@ -29,23 +37,23 @@ else
 
 ?>
 </h1>
-<p>First Name</p>
-<input type="text" name="" placeholder="Enter  first Name" id="fname">
-<p>Last Name</p>
-<input type="text" name="" placeholder="Enter Last Name" id="lname">
-<p>Contact Number</p>
-<input type="text" name="" placeholder="Enter  Contact" id="=Contact">
+<p> Name</p>
+<input type="text" name="customer_name" required placeholder="Enter first Name" id="customer_name" >
+<p>Phone number</p>
+<input type="tel" name="Phone_number" required placeholder="Enter phone number" id="Phone_number">
+<p>Address</p>
+<input type="text" name="address" required placeholder="Enter address" id="=address">
 <p>Email</p>
-<input type="text" name="" placeholder="Enter Last Name" id="lname">
+<input type="email" name="email" required placeholder="Enter email" id="email">
 
 <p>Password</p>
-<input type="password" name="" placeholder="Enter Password" id="password">
+<input type="password" name="password" required placeholder="Enter Password" id="password">
 
 
 <p>Confirm Password</p>
-<input type="password" name="" placeholder="Enter Password" id="password">
-<input type="submit" name="" value="Signup">
-<a href="login.php" >Existing user?Click to login</a>
+<input type="password" name="c_password" required placeholder="Enter Password" id="c_password">
+<input type="submit" name="signup_b" value="Signup">
+<a href="login.php" >Existing user? Click to login</a>
 <p class="error" id="error"></p>
 
 </form>
