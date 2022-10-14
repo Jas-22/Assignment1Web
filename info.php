@@ -60,7 +60,7 @@ include('includes/db_connection.php');
            
                 <tr>
                    
-                    <th>Name</th>
+                    <th>User Name</th>
                     <td><?php echo $Name ?></td>
                 </tr>
                 <tr>
